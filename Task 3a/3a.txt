@@ -1,0 +1,14 @@
+1. Difference between container and image 
+   - images are snapshots of running containers at a point in time. Containers are used to run images. 
+
+2. Advantages of containers
+   - lightweight, easy to replicate and distribute.
+   - works the same across different host settings.
+
+3. Security of containers 
+   - installing screwed up images that other people made. 
+   - uploading personal images to docker cloud that include sensitive information.
+   - Forward wrong ports? 
+
+4. vagrant vs docker 
+   - docker containers do not need to run OS as it shares the host kernel but vangrant includes OS

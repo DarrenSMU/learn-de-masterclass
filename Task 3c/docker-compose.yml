@@ -1,0 +1,9 @@
+version: "3.8"
+
+services: 
+    rstudio:
+        image: rocker/rstudio
+        ports:
+        - "8787:8787"
+        environment: 
+        - PASSWORD=password
